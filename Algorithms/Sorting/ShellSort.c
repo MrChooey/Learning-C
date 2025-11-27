@@ -15,9 +15,6 @@ void shellSort(int arr[]) {
 		}
 		gap /= 2;
 	}
-
-	printf("Shell Sort:");
-	for (int i = 0; i < MAX; i++) printf(" %d", arr[i]);
 }
 
 int main(void) {
@@ -25,6 +22,9 @@ int main(void) {
 
 	printf("Unsorted List: {5, 3, 2, 6, 1, 4}\n");
 	shellSort(arr);
+
+	printf("Shell Sort:");
+	for (int i = 0; i < MAX; i++) printf(" %d", arr[i]);
 
 	return 0;
 }

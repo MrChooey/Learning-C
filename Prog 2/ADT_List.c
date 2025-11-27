@@ -30,13 +30,13 @@ void displayStack(int stack[]) {
 }
 
 void getMethodStack(int *userInput) {
-	printf("|----------------|\n");
+	printf("\n|----------------|\n");
 	printf("|      Menu\t |\n");
 	printf("| 1. Push\t |\n");
 	printf("| 2. Pop\t |\n");
 	printf("| 3. Show Stack\t |\n");
 	printf("| 4. Exit\t |\n");
-	printf("|----------------|\n");
+	printf("|----------------|\n\n");
 
 	printf("Enter option: ");
 	scanf("%d", userInput);
@@ -76,39 +76,39 @@ int stack() {
 }
 
 void getMethodQueue(int *userInput) {
-	printf("|----------------|\n");
+	printf("\n|----------------|\n");
 	printf("|      Menu\t |\n");
 	printf("| 1. Enqueue\t |\n");
 	printf("| 2. Dequeue\t |\n");
 	printf("| 3. Show Queue\t |\n");
 	printf("| 4. Exit\t |\n");
-	printf("|----------------|\n");
+	printf("|----------------|\n\n");
 
 	printf("Enter option: ");
 	scanf("%d", userInput);
 }
 
 void getMethodList(int *userInput) {
-	printf("|----------------|\n");
+	printf("\n|----------------|\n");
 	printf("|      Menu\t |\n");
 	printf("| 1. Add\t |\n");
 	printf("| 2. Remove\t |\n");
 	printf("| 3. Show List\t |\n");
 	printf("| 4. Exit\t |\n");
-	printf("|----------------|\n");
+	printf("|----------------|\n\n");
 
 	printf("Enter option: ");
 	scanf("%d", userInput);
 }
 
 void getOptions(int *option) {
-	printf("|----------------|\n");
+	printf("\n|----------------|\n");
 	printf("|      Menu\t |\n");
 	printf("| 1. Stack\t |\n");
 	printf("| 2. Queue\t |\n");
 	printf("| 3. List\t |\n");
 	printf("| 4. Exit\t |\n");
-	printf("|----------------|\n");
+	printf("|----------------|\n\n");
 
 	printf("Enter option: ");
 	scanf("%d", option);

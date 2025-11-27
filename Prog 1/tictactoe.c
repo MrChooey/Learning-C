@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>s
 
 void displayChoice () {
     printf("\t\t\t#Tic-Tac-Toe#\n");
@@ -50,7 +50,7 @@ void checkPlacement (int board[3][3], int position, int player) {
 
                 if (value) {
                     printf("Invalid Move: This cell is already occupied by Player %d.\n", value);
-                    status = 0;
+                    status = 1;
                 }
 
                 board[y][x] = player;
